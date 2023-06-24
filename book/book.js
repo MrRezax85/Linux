@@ -691,7 +691,7 @@ function playground_text(playground, hidden = true) {
 var elements = document.querySelectorAll('div');
 
 // Define the character to match on.
-var firstChar = '***'; 
+var firstChar = '>'; 
 
 // Loop through all of the matching elements.
 for (var i=0; i<elements.length; i++) {
