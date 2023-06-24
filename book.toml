@@ -1,0 +1,6 @@
+[book]
+authors = ["MrRezax85"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Learn Linux"
