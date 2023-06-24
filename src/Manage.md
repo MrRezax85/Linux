@@ -1,4 +1,5 @@
 <div dir="rtl>
+  
 # مدیریت فایل‌ها و دایرکتوری‌ها
 
 ### ***دستور ls***
@@ -201,4 +202,5 @@
 > cat file1.txt file2.txt > merged_file.txt
 
 # ادامه دارد ...
+
 <div>
