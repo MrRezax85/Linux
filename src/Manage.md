@@ -1,3 +1,4 @@
+<div dir="rtl>
 # مدیریت فایل‌ها و دایرکتوری‌ها
 
 ### ***دستور ls***
@@ -29,23 +30,23 @@
 
 نمایش لیست فایل‌ها و پوشه‌های موجود در مسیر کنونی:
 
-ls
+> ls
 
 نمایش لیست فایل‌ها و پوشه‌های موجود در مسیر /home/user با جزئیات بیشتر:
 
-ls -l /home/user
+> ls -l /home/user
 
 نمایش تمام فایل‌ها و پوشه‌ها، حتی فایل‌های پنهان، در مسیر کنونی:
 
-ls -a
+> ls -a
 
 نمایش لیست فایل‌ها و پوشه‌های موجود در مسیر /var/log به ترتیب زمان اصلاح جدیدترین فایل‌ها به بالا:
 
-ls -t /var/log
+> ls -t /var/log
 
 نمایش لیست فایل‌ها و پوشه‌های موجود در مسیر کنونی و زیرشاخه‌ها:
 
-ls -R
+> ls -R
 
 
 ### ***دستور cd***
@@ -54,21 +55,21 @@ ls -R
 
 **استفاده:**
 
-cd [مسیر]
+> cd [مسیر]
 
 **مثال‌ها:**
 
 تغییر مسیر کاری به دایرکتوری home:
 
-cd /home
+> cd /home
 
 تغییر مسیر کاری به دایرکتوری قبلی:
 
-cd -
+> cd -
 
 تغییر مسیر کاری به دایرکتوری والد (بازگشت به سطح بالاتر):
 
-cd ..
+> cd ..
 
 ### ***دستور mkdir***
 
@@ -76,13 +77,13 @@ cd ..
 
 **استفاده:**
 
-mkdir [نام دایرکتوری]
+> mkdir [نام دایرکتوری]
 
 **مثال:**
 
 ایجاد یک دایرکتوری با نام new_directory:
 
-mkdir new_directory
+> mkdir new_directory
 
 ### ***دستور rm***
 
@@ -90,21 +91,21 @@ mkdir new_directory
 
 **استفاده:**
 
-rm [فایل/دایرکتوری]
+> rm [فایل/دایرکتوری]
 
 **گزینه‌ها:**
 
--r : حذف دایرکتوری و محتویات آن.
+> -r : حذف دایرکتوری و محتویات آن.
 
 **مثال‌ها:**
 
 حذف یک فایل با نام file.txt:
 
-rm file.txt
+> rm file.txt
 
 حذف یک دایرکتوری با نام directory و محتویات آن:
 
-rm -r directory
+> rm -r directory
 
 ### ***دستور cp***
 
@@ -112,22 +113,22 @@ rm -r directory
 
 **استفاده:**
 
-cp [منبع] [مقصد]
+> cp [منبع] [مقصد]
 
 
 **گزینه‌ها:**
 
--r: کپی دایرکتوری و محتویات آن.
+> -r: کپی دایرکتوری و محتویات آن.
 
 **مثال‌ها:**
 
 کپی یک فایل به مسیر دیگر:
 
-cp file.txt /path/to/destination
+> cp file.txt /path/to/destination
 
 کپی یک دایرکتوری و محتویات آن به مسیر دیگر:
 
-cp -r directory /path/to/destination
+> cp -r directory /path/to/destination
 
 ### ***دستور mv***
 
@@ -135,17 +136,17 @@ cp -r directory /path/to/destination
 
 **استفاده:**
 
-mv [منبع] [مقصد]
+> mv [منبع] [مقصد]
 
 **مثال‌ها:**
 
 جابجایی یک فایل به مسیر دیگر:
 
-mv file.txt /path/to/destination
+> mv file.txt /path/to/destination
 
 جابجایی یک دایرکتوری به مسیر دیگر:
 
-mv directory /path/to/destination
+> mv directory /path/to/destination
 
 ### ***دستور pwd***
 
@@ -153,7 +154,7 @@ mv directory /path/to/destination
 
 **استفاده:**
 
-pwd
+> pwd
 
 ### ***دستور touch***
 
@@ -161,17 +162,17 @@ pwd
 
 **استفاده:**
 
-touch [نام فایل]
+> touch [نام فایل]
 
 **مثال:**
 
 ایجاد یک فایل جدید با نام new_file.txt:
 
-touch new_file.txt
+> touch new_file.txt
 
 به روزرسانی زمان اصلاح فایل existing_file.txt:
 
-touch existing_file.txt
+> touch existing_file.txt
 
 ### ***دستور cat***
 
@@ -179,24 +180,25 @@ touch existing_file.txt
 
 **استفاده:**
 
-cat [فایل‌ها]
+> cat [فایل‌ها]
 
 **گزینه‌ها:**
 
--n : نمایش شماره خطوط
+> -n : نمایش شماره خطوط
 
 **مثال‌ها:**
 
 نمایش محتوای فایل file.txt:
 
-cat file.txt
+> cat file.txt
 
 نمایش محتوای چند فایل:
 
-cat file1.txt file2.txt
+> cat file1.txt file2.txt
 
 نمایش محتوای چند فایل و ذخیره خروجی در فایل جدید:
 
-cat file1.txt file2.txt > merged_file.txt
+> cat file1.txt file2.txt > merged_file.txt
 
 # ادامه دارد ...
+<div>
