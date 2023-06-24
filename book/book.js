@@ -687,18 +687,3 @@ function playground_text(playground, hidden = true) {
     })();
 })();
 
-// Select the elements that match a specific CSS selector.
-var elements = document.querySelectorAll('div');
-
-// Define the character to match on.
-var firstChar = '>'; *
-
-// Loop through all of the matching elements.
-for (var i=0; i<elements.length; i++) {
-  // Get the text content of the element and check if it starts with the firstChar.
-  var text = elements[i].textContent.trim();
-  if (text.charAt(0) === firstChar) {
-    // If it matches, set the desired attribute on the element.
-    elements[i].setAttribute('attributeName', 'attributeValue');
-  }
-}
